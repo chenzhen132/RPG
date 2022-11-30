@@ -46,4 +46,5 @@ public:
 	void RemoveGameplayTag(FGameplayTag TagToRemove);
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="CharacterBase")
 	FGameplayTag FullSkillTag;
+	int a;
 };
